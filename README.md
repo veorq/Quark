@@ -25,7 +25,7 @@ Running
   $ make
 ```
 
-will build sanity checks (test) vectors for all 4 Quark instances. For
+will build sanity checks (test vectors) for all 4 Quark instances. For
 example:
 
 ```C
