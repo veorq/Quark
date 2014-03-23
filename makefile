@@ -4,7 +4,7 @@ BIN  =  uquark_test dquark_test squark_test cquark_test\
         uquark_test_debug dquark_test_debug\
 	squark_test_debug cquark_test_debug
 
-all:	$(BIN)
+all:		      $(BIN)
 
 uquark_test:	      quark.c main.c
 		      $(CC) $(CFLAGS) -DUQUARK $^ -o $@
@@ -30,9 +30,9 @@ squark_test_debug:    quark.c main.c
 cquark_test_debug:    quark.c main.c
 		      $(CC) $(CFLAGS) -DCQUARK -DDEBUG $^ -o $@
 clean:
-		rm -fr *.o $(BIN)
+		      rm -fr *.o $(BIN)
 
-dist:		clean
-		cd ..; \
-		tar zcf Quark-`date +%Y%m%d%H%M`.tgz Quark/*
+dist:		      clean
+		      cd ..; \
+		      tar zcf Quark-`date +%Y%m%d%H%M`.tgz Quark/*
 
