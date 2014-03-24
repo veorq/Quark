@@ -22,7 +22,7 @@ Usage
 Running
 
 ```sh
-  $ make
+  make
 ```
 
 will build sanity checks (test vectors) for all 4 Quark instances. For
