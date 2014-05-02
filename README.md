@@ -44,12 +44,15 @@ does the same and prints intermediate values.
 Similar executables are provided for d-Quark, s-Quark, and c-Quark.
 
 
-License
--------
+Intellectual property
+---------------------
 
 The Quark reference code is released under [CC0
 license](https://creativecommons.org/publicdomain/zero/1.0/), a public
 domain-like licence.
+
+We aren't aware of any patents or patent applications relevant to
+Quark, and we aren't planning to apply for any.
 
 
 References
